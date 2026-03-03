@@ -161,7 +161,7 @@ async function startGateway() {
     "gateway",
     "run",
     "--bind",
-    "lan",
+    "loopback",
     "--port",
     String(INTERNAL_GATEWAY_PORT),
     "--auth",
